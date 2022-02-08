@@ -44,7 +44,7 @@ def error(update, context):
 
 
 def main():
-    updater = Updater("5134489395:AAEO5W5vq9pM20qfRE_xbv5oBynY3Dy-eCE", use_context=True)
+    updater = Updater("TOCKEN", use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(MessageHandler(Filters.text, echo))
